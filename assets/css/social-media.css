@@ -1,0 +1,76 @@
+.social {
+    z-index: 2;
+    position: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(-250px, 0);
+    border: 1px solid transparent;
+    box-sizing: border-box;
+}
+
+.social a {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    margin: 5px;
+    padding: 20px;
+    width: 300px;
+    text-align: right;
+    border-radius: 50px;
+    transition: 1s;
+    transition-property: transform;
+}
+
+.social a:hover {
+    transform: translate(50%, 0);
+    border: 1px solid #ff7b00;
+    background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%,
+    rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%,
+    rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%,
+    rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em,
+    rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em,
+    radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%,
+            rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%,
+            rgb(96, 96, 96) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(#000000, #000000);
+    background-color: #000000;
+    background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
+    background-repeat: repeat;
+
+}
+
+.social i {
+    margin-left: 10px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.social a:nth-child(1) i {
+    color: #ffffff;
+}
+
+.social a:nth-child(2) i {
+    color: #00dbf8;
+}
+
+.social a:nth-child(3) i {
+    color: transparent;
+    background-image: linear-gradient(45deg, #ffffff, #9600b2);
+    -webkit-background-clip: text;
+    font-weight: 600;
+}
+
+.social a:nth-child(4) i {
+    color: #4ECCE8;
+}
+
+.minecraft {
+    background-image: url("https://imgur.com/dMRCF3l.png");
+    background-size: cover;
+    display: inline-block;
+}

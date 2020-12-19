@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3a38ebd0-a872-48ad-88ab-09bba5526c82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/css/scroll.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/social-media.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/social-js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SITE TEAM APOCS V3/fond.css" beforeDir="false" afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V3/fond.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SITE TEAM APOCS V3/goal.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V3/goal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SITE TEAM APOCS V3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SITE TEAM APOCS V3/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V3/news.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SITE TEAM APOCS V3/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V3/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SITE TEAM APOCS V3/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V3/team.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Sass File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1jEzQyhYNKMNHqGl1dvL8pT8sg6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/video" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DOSSIER ULTIME\PROG\HTML5 ET CSS3\ipshare\assets\css" />
+      <recent name="D:\DOSSIER ULTIME\PROG\HTML5 ET CSS3\ipshare\static" />
+      <recent name="D:\DOSSIER ULTIME\PROG\HTML5 ET CSS3\ipshare\video" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DOSSIER ULTIME\PROG\HTML5 ET CSS3\ipshare\video" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a38ebd0-a872-48ad-88ab-09bba5526c82" name="Default Changelist" comment="" />
+      <created>1603384026190</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603384026190</updated>
+      <workItem from="1603384027213" duration="624000" />
+      <workItem from="1603810148668" duration="601000" />
+      <workItem from="1603813492729" duration="506000" />
+      <workItem from="1604083499568" duration="1730000" />
+      <workItem from="1604092517228" duration="27979000" />
+      <workItem from="1604193707952" duration="45000" />
+      <workItem from="1604524026151" duration="8253000" />
+      <workItem from="1604585240731" duration="264000" />
+      <workItem from="1605139617204" duration="6155000" />
+      <workItem from="1605198399799" duration="346000" />
+      <workItem from="1605211916902" duration="16637000" />
+      <workItem from="1605401133862" duration="5944000" />
+      <workItem from="1605827451667" duration="1775000" />
+      <workItem from="1605905763663" duration="1103000" />
+      <workItem from="1606230621102" duration="1172000" />
+      <workItem from="1606947821834" duration="1838000" />
+      <workItem from="1607554854276" duration="673000" />
+      <workItem from="1608306154267" duration="647000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="587" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604178630108">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="587" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1604178630108" />
+    <state x="623" y="229" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605226095304">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="229" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1605226095304" />
+    <state x="513" y="271" key="EditFileWatcherDialog" timestamp="1605225733534">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="513" y="271" key="EditFileWatcherDialog/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1605225733534" />
+    <state x="350" y="98" key="SettingsEditor" timestamp="1605225734725">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="350" y="98" key="SettingsEditor/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1605225734725" />
+    <state x="350" y="98" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1604092505460" />
+    <state width="623" height="498" key="SwitcherDM" timestamp="1604533152783">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="623" height="498" key="SwitcherDM/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1604533152783" />
+    <state x="1012" y="250" key="run.anything.popup" timestamp="1605215626482">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1012" y="250" key="run.anything.popup/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1605215626482" />
+    <state x="657" y="436" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1604172720607">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="657" y="436" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1604172720607" />
+  </component>
+</project>

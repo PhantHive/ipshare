@@ -1,19 +1,22 @@
-body{
-    margin: 0;
-    overflow-x: hidden;
+@import url("https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap");
 
+body {
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
     background-image: radial-gradient(circle at 16% 83%, rgba(148, 148, 148,0.06) 0%, rgba(148, 148, 148,0.06) 50%,rgba(63, 63, 63,0.06) 50%, rgba(63, 63, 63,0.06) 100%),
     radial-gradient(circle at 68% 87%, rgba(66, 66, 66,0.06) 0%, rgba(66, 66, 66,0.06) 50%,rgba(105, 105, 105,0.06) 50%, rgba(105, 105, 105,0.06) 100%),
     radial-gradient(circle at 38% 50%, rgba(123, 123, 123,0.06) 0%, rgba(123, 123, 123,0.06) 50%,rgba(172, 172, 172,0.06) 50%, rgba(172, 172, 172,0.06) 100%),
     linear-gradient(90deg, hsl(18,0%,1%),hsl(18,0%,1%));
-
-
 }
 
+
 .video {
-    padding: 0;
-    object-fit: cover;
+    padding-left: 0;
+    padding-right: 0;
+    height: 100vh; min-height: 100%;
     z-index:0;
+    object-fit: fill;
 }
 
 /*
@@ -27,17 +30,29 @@ body{
 
 /* Nav Bar */
 
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.navbar-custom {
+    height: 75px;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
 .navigation {
 
     background-image: radial-gradient(circle at 16% 83%, rgba(148, 148, 148,0.06) 0%, rgba(148, 148, 148,0.06) 50%,rgba(63, 63, 63,0.06) 50%, rgba(63, 63, 63,0.06) 100%),
     radial-gradient(circle at 68% 87%, rgba(66, 66, 66,0.06) 0%, rgba(66, 66, 66,0.06) 50%,rgba(105, 105, 105,0.06) 50%, rgba(105, 105, 105,0.06) 100%),
     radial-gradient(circle at 38% 50%, rgba(123, 123, 123,0.06) 0%, rgba(123, 123, 123,0.06) 50%,rgba(172, 172, 172,0.06) 50%, rgba(172, 172, 172,0.06) 100%),
     linear-gradient(90deg, hsl(18,0%,1%),hsl(18,0%,1%));
-    font-size: 20px;
     margin-bottom: 0;
-    height: 50px;
-
 }
+
 
 .nav {
     color: #D37619;
@@ -47,25 +62,27 @@ body{
     position: relative;
     color: whitesmoke;
     text-decoration: none !important;
-    font-size: 25px;
-    padding: .9rem;
+    font-family: 'Nova Flat', cursive;
+    font-size: 20px;
+    padding: 2rem;
 }
 
 .navbar-nav> li> a:hover {
-    color: #3f3838;
+    color: #504d4d;
 }
 
 .navbar-nav> li> a span{
-    font-size: 20px;
+    font-size: 15px;
     position:absolute;
-    margin-top:25px;
-    margin-left:-35px;
     color: #ff8a00;
     background:rgba(0,0,0,.9);
-    padding:15px;
+    border-top: 1px solid white;
+    top: 70px;
+    left: -10px;
+    padding: 10px;
     border-radius:3px;
     white-space:nowrap;
-    box-shadow:0 0 2px rgba(0,0,0,.5);
+    box-shadow:0 0 5px rgba(255, 255, 255, 0.5);
     transform:scale(0) rotate(-25deg);
     transition:all .5s;
     opacity:0;
@@ -81,22 +98,19 @@ body{
 .navbar-nav> li> a:hover:after {
     position: absolute;
     content: attr(data-text);
-    padding: 10px;
-    top: 0;
-    left: 20px;
     overflow: hidden;
 }
 
 .navbar-nav> li> a:hover:before {
-    left: 5px;
-    text-shadow: -3px 0 #3f3838;
+    left: 50px;
+    text-shadow: -5px 0 #007ddb;
     animation: glitch-1 2s 0s linear reverse infinite;
 
 }
 
 .navbar-nav> li> a:hover:after {
-    left: -5px;
-    text-shadow: 3px 0 #3f3838;
+    left: -20px;
+    text-shadow: 5px 0 #007ddb;
     animation: glitch-2 2s 0s linear reverse infinite;
 }
 
@@ -232,18 +246,15 @@ body{
 }
 
 /* section, parallax */
-.parallax {
-    position: relative;
-    padding: 0;
-    object-fit: cover;
-    min-height: 600px;
-    min-width: 100%;
-    background: transparent;
+
+
+#section1 {
+    padding-bottom: 125px !important;
 }
 
 .row{
     position: relative;
-    margin: 150px auto 0 ;
+    margin: 150px 150px !important;
 }
 
 
@@ -256,21 +267,36 @@ body{
     color: white;
     line-height: 35px;
     padding: 25px;
+
     text-align: center;
     width: 550px;
     height: 250px;
     background: linear-gradient(0deg, #000, #272727);
 }
 
+.parallax {
+    position: relative;
+    padding: 0;
+    object-fit: cover;
+    min-height: 800px;
+    min-width: 100% !important;
+    background: transparent;
+}
+
+#section2 {
+    padding-right:0;
+    padding-left:0;
+}
 
 #ipsamazingBlock {
 
-    border: #D37619;
+    border: #d37619;
     border-style: groove;
     border-radius: 80px 80px;
     margin: 350px auto 0;
     color: white;
     line-height: 30px;
+    cursor: pointer;
     padding: 25px;
     text-align: center;
     width: 400px;
@@ -278,3 +304,81 @@ body{
     background: linear-gradient(0deg, #000, #272727);
 }
 
+
+/*smartphones*/
+@media screen and (max-width: 850px) {
+
+    .logo {
+        margin-top: 10px;
+    }
+
+    .container-fluid> video {
+        width: 130vh;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .navbar-brand {
+        position: fixed;
+        top: -5px;
+    }
+
+    .navbar-toggler {
+        position: fixed;
+        top: 5px;
+        right: 5px;
+    }
+
+
+    .navbar-collapse.collapsing .navbar-nav {
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -25%;
+        transition: all 0.2s ease;
+    }
+
+    .navbar-collapse.show .navbar-nav {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        transition: left 0.35s ease;
+        background-color: rgba(0, 0, 0, 0.8);
+        box-shadow: 0 0.8rem 1rem rgba(211, 118, 25, 1);
+    }
+
+
+    .nav-item {
+        margin-top: 40px !important;
+    }
+    .nav {
+        transform: translateX(-50%);
+        text-align: right;
+
+    }
+
+    .navbar-nav> li> a span {
+        visibility: hidden;
+    }
+
+    .social {
+        visibility: hidden;
+    }
+
+    .row {
+        margin: 100px 0 !important;
+    }
+
+    #rang {
+        margin-bottom: 50px !important
+    }
+
+    #ipshareBlock {
+        margin-bottom: 50px !important
+    }
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=MedievalSharp');
+
+
+
+.persoMc {
+    z-index:3;
+    left: 80%;
+    position: relative;
+    bottom: 150px;
+}
+
+
+.mcTitre {
+    z-index:3;
+    top: -100px;
+    left: 40%;
+    font-size: 100px;
+    font-weight: bold;
+    position: relative;
+    font-family: MedievalSharp, serif;
+    text-shadow: 0 2px 2px #dfdfdf,
+    -2px 5px 1px #b8b8b8,
+    -4px 8px 0px #979797,
+    -6px 11px 0px #747474,
+    -8px 14px 0px #565656,
+    -10px 17px 0px #343434,
+    -12px 20px 0px #171717,
+    -14px 23px 0px #000;
+}
+
+.mctext {
+    z-index:3;
+    top: -95px;
+    left: 42%;
+    font-size: 40px;
+    position: relative;
+    font-weight: normal;
+    font-family: MedievalSharp, serif;
+}
+
+
+@media screen and (max-width: 750px) {
+    .persoMc {
+        width: 300px;
+        z-index:3;
+        left: 50%;
+        position: relative;
+        bottom: 200px;
+    }
+
+    .mcTitre {
+        font-size: 50px;
+        top: 0;
+    }
+
+}

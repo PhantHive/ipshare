@@ -1,7 +1,30 @@
+* {
+    outline: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    background: #343434;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px #808080;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #222222;
+    border-radius: 5px;
+}
+
+/* scroll-effect-video */
 .scroll {
     position: relative;
     z-index:1;
-    left: 50%;
+    left: 48.5%;
     top: -55px;
     width: 15px;
     height: 15px;
@@ -29,8 +52,8 @@
 }
 
 .scroll span:nth-child(2) {
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     animation-delay: 0.2s;
 }
 
@@ -54,3 +77,78 @@
     }
 
 }
+
+
+
+#back-to-top-btn {
+    display: none;
+    position: fixed;
+    z-index: 99;
+    background-color: black;
+    color: #D37619;
+    height: 50px;
+    width: 50px;
+    bottom: 20px;
+    left: 40px;
+    border-radius: 50%;
+}
+
+
+.btnEntrance {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-name: btnEntrance;
+}
+
+/*fade in up*/
+@keyframes btnEntrance  {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.btnExit {
+    animation-duration: 0.2s;
+    animation-fill-mode: both;
+    animation-name: btnExit;
+}
+
+/*fade out down*/
+@keyframes btnExit  {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+}
+
+#back-to-top-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+}
+
+#back-to-top-btn:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #D37619;
+}
+
+#back-to-top-btn:hover {
+    color: #D37619;
+    box-shadow: 0 0 5px #D37619;
+}
+

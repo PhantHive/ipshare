@@ -2,16 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a38ebd0-a872-48ad-88ab-09bba5526c82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/scroll.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/social-media.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/social-js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/minecraft.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/mcipsa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/minecraft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/scrolltop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/ipshareMain.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SITE TEAM APOCS V3/fond.css" beforeDir="false" afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V3/fond.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SITE TEAM APOCS V3/goal.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V3/goal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SITE TEAM APOCS V3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V3/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SITE TEAM APOCS V3/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V3/news.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SITE TEAM APOCS V3/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V3/news.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SITE TEAM APOCS V3/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V3/team.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/fond.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/fond.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/scroll.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/scroll.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/social-media.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/social-media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,28 +33,32 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="Sass File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jEzQyhYNKMNHqGl1dvL8pT8sg6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/video" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -85,17 +97,40 @@
       <workItem from="1606947821834" duration="1838000" />
       <workItem from="1607554854276" duration="673000" />
       <workItem from="1608306154267" duration="647000" />
+      <workItem from="1608484401163" duration="1012000" />
+      <workItem from="1608486147536" duration="1130000" />
+      <workItem from="1608581105623" duration="2720000" />
+      <workItem from="1608583848287" duration="16263000" />
+      <workItem from="1608661431707" duration="2380000" />
+      <workItem from="1608760203813" duration="16829000" />
+      <workItem from="1609282713559" duration="207000" />
+      <workItem from="1609441693155" duration="1058000" />
+      <workItem from="1609461976920" duration="59000" />
+      <workItem from="1609848655386" duration="105000" />
+      <workItem from="1612203963216" duration="254000" />
+      <workItem from="1612204226085" duration="515000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="437" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612204190632">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="437" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1612204190632" />
     <state x="587" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604178630108">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="587" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1604178630108" />
+    <state x="737" y="409" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1612204216612">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="737" y="409" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1612204216612" />
     <state x="623" y="229" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605226095304">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -104,11 +139,16 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="513" y="271" key="EditFileWatcherDialog/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1605225733534" />
-    <state x="350" y="98" key="SettingsEditor" timestamp="1605225734725">
+    <state x="686" y="237" key="FileChooserDialogImpl" timestamp="1612204207498">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="350" y="98" key="SettingsEditor/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1605225734725" />
-    <state x="350" y="98" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1604092505460" />
+    <state x="686" y="237" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1612204207498" />
+    <state x="686" y="237" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1609848758394" />
+    <state x="350" y="98" width="1155" height="1080" key="SettingsEditor" timestamp="1612204152555">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="350" y="98" key="SettingsEditor/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1612204152555" />
+    <state x="765" y="0" width="1155" height="1080" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1608597283699" />
     <state width="623" height="498" key="SwitcherDM" timestamp="1604533152783">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

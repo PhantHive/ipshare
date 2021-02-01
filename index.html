@@ -2,6 +2,8 @@
 
 <html>
     <head>
+        <script>history.scrollRestoration = "manual"</script>
+
         <meta charset="utf-8">
         <link href='https://use.fontawesome.com/releases/v5.7.2/css/all.css' rel='stylesheet'>
 
@@ -11,10 +13,10 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
 
-
         <!-- Add icon library -->
         <script src="parallax.min.js"></script>
         <link rel="stylesheet" href="assets/css/fond.css">
+        <link rel="stylesheet" href="assets/css/minecraft.css">
         <link rel="stylesheet" href="assets/css/scroll.css">
         <link rel="stylesheet" href="assets/css/social-media.css">
         <title>I.P.S.A BOT</title>
@@ -26,35 +28,36 @@
         </div>
     </head>
 
-
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
         <!--Nav bar Part-->
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top navigation">
-            <div class="container-fluid">
+        <nav class="navbar navbar-custom navbar-expand-md navbar-dark fixed-top navigation">
+
                 <a class="navbar-brand" href="#">
-                    <img src="./assets/img/logo.jpg" height="49" alt="ipsabotLogo">
+                    <img class="logo" src="./assets/img/logo.jpg" height="55" alt="ipsabotLogo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-expanded="false">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="nav navbar-nav mr-auto">
-                        <li class="nav-item"><a href="#section1" data-text="IPShare">IPShare<span>Premier bot d'IPSA...</span></a></li>
-                        <li class="nav-item"><a href="#section2" data-text="IPSAmazing">IPSAmazing<span>Deuxième bot d'IPSA...</span></a></li>
-                        <li class="nav-item"><a href="#" data-text="MC-IPSA">MC-IPSA<span>serveur minecraft d'IPSA...</span></a></li>
-                        <li class="nav-item"><a href="#" data-text="Hyosa">Hyosa<span>serveur Hytale d'IPSA...</span></a></li>
-                        <li class="nav-item"><a href="#" data-text="Projets">Projets</a></li>
-                        <li class="nav-item"><a href="#" data-text="Lien">Lien</a></li>
+                    <ul class="nav navbar-nav mr-auto navbar-center">
+                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a href="#section1" data-text="IPShare">IPShare<span>Premier bot d'IPSA...</span></a></li>
+                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a href="#section2" data-text="IPSAmazing">IPSAmazing<span>Deuxième bot d'IPSA...</span></a></li>
+                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a href="#" data-text="MC-IPSA">MC-IPSA<span>serveur minecraft d'IPSA...</span></a></li>
+                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a href="#" data-text="Hyosa">Hyosa<span>serveur Hytale d'IPSA...</span></a></li>
+                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a href="#" data-text="Projets">Projets</a></li>
+                        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><a href="#" data-text="Lien">Lien</a></li>
                     </ul>
                 </div>
-            </div>
         </nav>
+
         <!--Video Part-->
         <div class="container-fluid video" id="section0">
-            <video width="100%" preload="true" autoplay muted loop playsinline>
+            <video width="100%" reload="true" autoplay muted loop playsinline>
+                <source src="assets/videos/ipshareMain.mp4" type="video/mp4"/>
                 <source  src="assets/videos/main.h264" type="video/h264"/>
-                <source src="assets/videos/ipshare.mp4" type="video/mp4"/>
                 <source src="assets/videos/ipshare.webm" type="video/webm"/>
             Your browser don't support
             </video>
@@ -65,14 +68,16 @@
                 <span></span>
             </div>
         </div>
+
+        <!--IPSHARE-->
         <div class="container-fluid" id="section1">
             <!--I.P.Share Part-->
             <div class="row justify-content-center text-center">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 my-auto">
                     <img id="rang" src="assets/img/rang.JPG">
                 </div>
 
-                <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-4" id="ipshareBlock">
+                <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-4 my-auto" id="ipshareBlock">
                     <p>IPShare est le premier Bot ayant été créer.
                         Le but de ce bot était de permettre aux étudiants
                         d'avoir accès rapidement à des entrainements en algo,
@@ -82,16 +87,25 @@
                         étudiants.</p>
                 </div>
 
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 my-auto image-wrapper">
                     <img id="objection" src="assets/img/objection.JPG">
                 </div>
 
             </div>
         </div>
+
+        <!--MINECRAFT-->
+        <div class="container-fluid" id="section2">
+            <div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="assets/img/mcipsa.png">
+            <h1 class="mcTitre">MC-IPSA</h1>
+            <p class="mctext">ip: play.ipsa.tk</p>
+            <img class="persoMc" src="assets/img/minecraft2.png">
+
+        </div>
+        </div>
+        <!--I.P.Amazing Part-->
         <div class="container-fluid" >
-            <div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="assets/img/img1.jpg"></div>
-            <!--I.P.Amazing Part-->
-            <div id="section2">
+            <div id="section3">
                 <div id="ipsamazingBlock">
                     <p>I.P.S.Amazing a été concu pour suivre la nouvelle génération de bots discord, la V12
                     et pouvoir ainsi remplacé le bot V11 I.P.Share. I.P.S.Amazing se voudra plus performant grace à la promo 2025 qui ont tester le bot v11.</p>
@@ -100,8 +114,10 @@
 
         </div>
 
-
-
+        <button id="back-to-top-btn">
+            <i class="fas fa-arrow-circle-up"></i>
+        </button>
+        <script src="assets/js/scrolltop.js"></script>
     </body>
 
 

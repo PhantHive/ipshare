@@ -2,23 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a38ebd0-a872-48ad-88ab-09bba5526c82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/minecraft.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/mcipsa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/minecraft2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/scrolltop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/ipshareMain.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V1/PHOTO SITE AVANCEMENT/3 eme page.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V1/PHOTO SITE AVANCEMENT/page1apocs.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V1/PHOTO SITE AVANCEMENT/page2.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V1/PHOTO SITE AVANCEMENT/page2apocs.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V1/PHOTO SITE AVANCEMENT/page3apocs.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V1/PHOTO SITE AVANCEMENT/page4apocs.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V1/PHOTO SITE AVANCEMENT/pagepaladins.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V1/background.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V1/background2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V1/backgroundcom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V1/collectdata (1).php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V1/collectdata.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V1/communication.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V1/gta.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V1/histoireteam.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V1/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V1/neige.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V1/news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V1/newscss.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V1/paladins.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V1/php.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V1/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V2/ApoCsV2/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V2/ApoCsV2/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V2/ApoCsV2/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V2/ApoCsV2/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V2/ApoCsV2/public_html/Image/Akali.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V2/ApoCsV2/public_html/Image/akali kda.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V2/ApoCsV2/public_html/Image/cardinal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V2/ApoCsV2/public_html/Image/entity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V2/ApoCsV2/public_html/Image/font.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V2/ApoCsV2/public_html/Image/kda.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V2/ApoCsV2/public_html/Image/team.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V2/ApoCsV2/public_html/Image/websitefont.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V2/ApoCsV2/public_html/Image/ying.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V2/ApoCsV2/public_html/Image/zak.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V2/ApoCsV2/public_html/Sound/discordinfo.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V2/ApoCsV2/public_html/Sound/gamessound.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V2/ApoCsV2/public_html/Sound/infosound.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V2/ApoCsV2/public_html/Sound/voix2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V2/ApoCsV2/public_html/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V2/ApoCsV2/public_html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V2/ApoCsV2/public_html/nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V2/ApoCsV2/public_html/news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V2/ApoCsV2/public_html/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SITE TEAM APOCS V3/fond.css" beforeDir="false" afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V3/fond.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SITE TEAM APOCS V3/goal.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V3/goal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SITE TEAM APOCS V3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V3/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SITE TEAM APOCS V3/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V3/news.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SITE TEAM APOCS V3/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V3/news.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SITE TEAM APOCS V3/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V3/team.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/fond.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/fond.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/scroll.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/scroll.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/social-media.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/social-media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,10 +92,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cybair" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -109,6 +152,10 @@
       <workItem from="1609848655386" duration="105000" />
       <workItem from="1612203963216" duration="254000" />
       <workItem from="1612204226085" duration="515000" />
+      <workItem from="1612799848075" duration="748000" />
+      <workItem from="1612995222605" duration="616000" />
+      <workItem from="1612995893464" duration="142000" />
+      <workItem from="1612996047129" duration="8543000" />
     </task>
     <servers />
   </component>
@@ -123,10 +170,6 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="437" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1612204190632" />
-    <state x="587" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604178630108">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="587" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1604178630108" />
     <state x="737" y="409" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1612204216612">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -139,27 +182,27 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="513" y="271" key="EditFileWatcherDialog/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1605225733534" />
-    <state x="686" y="237" key="FileChooserDialogImpl" timestamp="1612204207498">
+    <state x="686" y="237" key="FileChooserDialogImpl" timestamp="1613000089314">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="686" y="237" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1612204207498" />
+    <state x="686" y="237" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1613000089314" />
     <state x="686" y="237" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1609848758394" />
-    <state x="350" y="98" width="1155" height="1080" key="SettingsEditor" timestamp="1612204152555">
+    <state x="305" y="98" width="1615" height="883" key="SettingsEditor" timestamp="1612996100461">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="350" y="98" key="SettingsEditor/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1612204152555" />
+    <state x="305" y="98" width="1615" height="883" key="SettingsEditor/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1612996100461" />
     <state x="765" y="0" width="1155" height="1080" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1608597283699" />
     <state width="623" height="498" key="SwitcherDM" timestamp="1604533152783">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="623" height="498" key="SwitcherDM/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1604533152783" />
+    <state x="622" y="327" width="621" height="600" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1612799941144">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="622" y="327" width="621" height="600" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1612799941144" />
     <state x="1012" y="250" key="run.anything.popup" timestamp="1605215626482">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1012" y="250" key="run.anything.popup/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1605215626482" />
-    <state x="657" y="436" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1604172720607">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="657" y="436" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1604172720607" />
   </component>
 </project>

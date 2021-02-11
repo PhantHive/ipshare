@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html>
+
     <head>
         <script>history.scrollRestoration = "manual"</script>
 
@@ -29,8 +30,6 @@
     </head>
 
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
-
-
         <!--Nav bar Part-->
         <nav class="navbar navbar-custom navbar-expand-md navbar-dark fixed-top navigation">
 
@@ -72,12 +71,17 @@
         <!--IPSHARE-->
         <div class="container-fluid" id="section1">
             <!--I.P.Share Part-->
-            <div class="row justify-content-center text-center">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 my-auto">
+            <div class="row justify-content-start text-center">
+                <div class="col col-lg-4 align-self-start my-auto no-gutters rang-layer">
                     <img id="rang" src="assets/img/rang.JPG">
+                    <div class="col align-self-end my-auto no-gutters hoverRang">
+                        <p>IPShare est le premier Bot ayant été créer.</p>
+                    </div>
                 </div>
+            </div>
 
-                <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-4 my-auto" id="ipshareBlock">
+                <!--
+                <div class ="col align-self-end my-auto no-gutters" id="ipshareBlock">
                     <p>IPShare est le premier Bot ayant été créer.
                         Le but de ce bot était de permettre aux étudiants
                         d'avoir accès rapidement à des entrainements en algo,
@@ -86,9 +90,16 @@
                         un nombre de ressources importantes pouvant soulager les
                         étudiants.</p>
                 </div>
+                --->
 
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 my-auto image-wrapper">
+            <div class="row justify-content-end text-center">
+                <div class="col col-lg-4 align-self-center image-wrapper my-auto no-gutters objection-layer">
                     <img id="objection" src="assets/img/objection.JPG">
+                    <div class="col align-self-end my-auto no-gutters hoverObjec">
+                        <p>IPShare un bot ludique au service des étudiants.
+                        Avec son archive très complète qui ne cesse de s'accroitre.
+                        </p>
+                    </div>
                 </div>
 
             </div>
@@ -119,6 +130,5 @@
         </button>
         <script src="assets/js/scrolltop.js"></script>
     </body>
-
 
 </html>

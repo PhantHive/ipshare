@@ -10,7 +10,6 @@ body {
     linear-gradient(90deg, hsl(18,0%,1%),hsl(18,0%,1%));
 }
 
-
 .video {
     padding-left: 0;
     padding-right: 0;
@@ -52,7 +51,6 @@ body {
     linear-gradient(90deg, hsl(18,0%,1%),hsl(18,0%,1%));
     margin-bottom: 0;
 }
-
 
 .nav {
     color: #D37619;
@@ -179,6 +177,7 @@ body {
         clip: rect(14px, auto, 100px, 30px);
     }
 }
+
 @keyframes glitch-2 {
     0% {
         clip: rect(129px, auto, 36px, 30px);
@@ -247,9 +246,8 @@ body {
 
 /* section, parallax */
 
-
 #section1 {
-    padding-bottom: 125px !important;
+    padding-bottom: 50px !important;
 }
 
 .row{
@@ -258,20 +256,93 @@ body {
 }
 
 
-
-#ipshareBlock {
-
-    border: #d37619;
-    border-style: groove;
+/*
+.rang-laye {
+    border: groove #d37619;
     border-radius: 80px 80px;
     color: white;
     line-height: 35px;
     padding: 25px;
-
     text-align: center;
     width: 550px;
     height: 250px;
     background: linear-gradient(0deg, #000, #272727);
+}
+*/
+
+/* RANG */
+.rang-layer .hoverRang {
+    position: absolute;
+    top: 50%;
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translate(-100%, -50%);
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.rang-layer:hover .hoverRang,
+.rang-layer.active .hoverRang {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    font: 25px bold ;
+    color: white;
+}
+
+.rang-layer:hover #rang,
+.rang-layer.active #rang{
+    opacity: 0.1;
+    border: groove white;
+    line-height: 35px;
+}
+
+/* OBJECTION */
+
+.objection-layer .hoverObjec {
+    position: absolute;
+    top: 50%;
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translate(100%, -50%);
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.objection-layer:hover .hoverObjec,
+.objection-layer.active .hoverObjec {
+    position: absolute;
+    top: 50%;
+    left: -50%;
+    -moz-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translate(50%, -50%);
+    opacity: 1;
+    font: 25px bold ;
+    padding: 50px;
+
+    color: white;
+}
+
+.objection-layer:hover #objection,
+.objection-layer.active #objection{
+    opacity: 0.1;
+    border: groove white;
+    line-height: 35px;
+}
+
+
+
+#objection {
+    margin-right: 10px !important;
 }
 
 .parallax {
@@ -328,7 +399,6 @@ body {
         top: 5px;
         right: 5px;
     }
-
 
     .navbar-collapse.collapsing .navbar-nav {
         display: block;

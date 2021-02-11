@@ -54,9 +54,6 @@
       <change beforePath="$PROJECT_DIR$/../SITE TEAM APOCS V3/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V3/news.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SITE TEAM APOCS V3/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V3/news.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SITE TEAM APOCS V3/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SITE TEAM APOCS V3/team.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/fond.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/fond.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +153,7 @@
       <workItem from="1612995222605" duration="616000" />
       <workItem from="1612995893464" duration="142000" />
       <workItem from="1612996047129" duration="8543000" />
+      <workItem from="1613007065023" duration="73000" />
     </task>
     <servers />
   </component>

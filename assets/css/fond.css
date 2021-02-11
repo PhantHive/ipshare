@@ -359,6 +359,27 @@ body {
     padding-left:0;
 }
 
+/* minecraft */
+
+[class*="reveal-"] {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.reveal-visible {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 1s cubic-bezier(0.5, 0, 0, 1);
+}
+
+.reveal-2 {
+    transition-delay: 0.3ms;
+}
+
+.reveal-3 {
+    transition-delay: 0.3ms;
+}
+
 #ipsamazingBlock {
 
     border: #d37619;
